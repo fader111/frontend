@@ -5,8 +5,8 @@ import React, { useEffect, useState } from 'react';
 
 
 const AddUserForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+  const [name, setName] = useState('QQ');
+  const [email, setEmail] = useState('qq@qq.ru');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
